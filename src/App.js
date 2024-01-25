@@ -1,10 +1,11 @@
-import Diagram from './components/Diagram'
-import './App.css';
+import Diagram from "./components/Diagram";
+import FormWithBug from "./components/formWithBug/FormWithBug";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Diagram />
+      <FormWithBug />
     </div>
   );
 }
